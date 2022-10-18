@@ -104,6 +104,89 @@
     background-size: cover;
 }
 
+/*firm*/
+.firm{
+    padding: 100px 336px;
+    max-width: 768px;
+}
+.firm_div{
+    display: flex;
+    justify-content: space-between;    
+}
+.firm_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+}
+.firm_text_p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+    margin-bottom: 10px;
+}
+.firm_img{
+    display: flex;
+    align-items: center;    
+}
+.firm_img_text{
+    margin-left: 30px;
+}
+.firm_img_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #1B1A1A;
+}
+.firm_img_p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #1B1A1A;
+}
+
+/*reading_house*/
+.reading_house{
+    min-height: 600px;
+    background-image: url(../img/reading_house.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;    
+}
+.description{
+    max-width: 285px;
+}
+.description_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.description_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    color: #645C55;
+}
+
+
 /*about*/
 .about{
     padding: 100px 0;
@@ -168,6 +251,39 @@
     color: #645C55;
 }
 
+/*marble*/
+.marble{
+    min-height: 600px;
+    background-image: url(../img/marble.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
+}
+.marble_description{
+    max-width: 285px;
+}
+.marble_description_title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #403E3B;
+}
+.marble_description_text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #645C55;
+}
+
+
 /*happy*/
 .happy{
     background: #403E3B;
@@ -222,6 +338,37 @@
     list-style: none;     
 }
 
+/*swirling*/
+.swirling{
+    min-height: 600px;
+    background-image: url(../img/swirling.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 60px;
+}
+.swirling_description{
+    max-width: 285px;
+}
+.swirling_description_title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #403E3B;
+}
+.swirling_description_text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #645C55;
+}
 
 /*meet*/
 .meet{
