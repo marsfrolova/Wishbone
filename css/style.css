@@ -108,6 +108,7 @@
 .firm{
     padding: 100px 336px;
     max-width: 768px;
+    margin: auto;
 }
 .firm_div{
     display: flex;
@@ -288,7 +289,7 @@ color: #645C55;
 .happy{
     background: #403E3B;
     border-radius: 0px;
-    padding: 100px 320px 100px 136px;    
+    padding: 100px 100px;    
 }
 .happy_div{
     display: flex;
@@ -458,12 +459,14 @@ color: #645C55;
 
 /*meet*/
 .meet{
-    padding: 100px 136px;  
-    max-width: 1168px;      
+    padding: 100px;
+    max-width: 1168px;  
+    margin: auto;    
 }
 .meet_div{
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;  
+      
 }
 .meet_text{
     padding-right: 16px;
