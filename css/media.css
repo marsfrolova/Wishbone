@@ -1,0 +1,109 @@
+@media only screen and (max-width: 768px) {
+    .header_item{
+        margin-left: 12px;
+    }
+    .hero_div {
+        max-width: 700px; 
+        margin: auto;
+    }
+    .hero_title_text {       
+            font-size: 10px;
+            line-height: 1.4;
+    }
+    .hero_title {        
+            font-size: 40px;
+            line-height: 1.09; 
+    }
+    .hero_text { max-width: 310px;       
+        font-size: 10px;
+        line-height: 1.5; 
+    }
+    .hero_link {        
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .firm{
+        padding: 50px 140px;
+        max-width: 768px;
+        margin: auto;
+    }
+    .firm_text_p{        
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .about_div_text{     
+        font-size: 30px;
+        line-height: 1.07;
+    }
+    .about_list_text{       
+        font-size: 11px;
+        line-height: 1.6;
+    }
+    .happy_title_text{
+        margin-bottom: 15px;
+    }
+    .happy_div{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .happy_img_one, .happy_img_two{
+        margin: auto;
+    }
+    .projects h3{
+        font-size: 29px;
+        line-height: 1.07;
+     
+    }
+    .projects_text{
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 24px;
+    }
+    .container{
+        max-width: 632px;
+        margin: auto;
+    }
+    .projects .describe a{       
+        padding: 11px 20px;        
+        font-size: 11px;
+        line-height: 1.5;       
+    }
+    .projects .describe h4{        
+        font-size: 19px;
+        line-height: 1.30;
+    }
+    .projects .describe h4 span{        
+        font-size: 10px;
+        line-height: 1.42;
+    }
+    .meet_div{
+        display: block;
+        justify-content: center;  
+       margin: auto;
+    }
+    .meet_text{
+        margin-bottom: 20px;
+    }
+    .get{
+        padding: 50px;        
+    }
+    .get_text{        
+        font-size: 10px;
+        line-height: 1.42; 
+    }
+    .get_text_two{        
+        font-size: 30px;
+        line-height: 1.05; 
+    }
+    .get_text_three{       
+        font-size: 12px;
+        line-height: 1.5;              
+    }
+@media only screen and (max-width: 428px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}

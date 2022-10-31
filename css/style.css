@@ -291,7 +291,7 @@ color: #645C55;
     border-radius: 0px;
     padding: 100px 100px;    
 }
-.happy_div{
+.happy_div, .happy_img{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -389,7 +389,7 @@ color: #645C55;
     color: #1B1A1A;
     margin-bottom: 15px;
 }
-.projects p{
+.projects_text{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -397,6 +397,18 @@ color: #645C55;
     line-height: 30px;
     color: #645C55;
     margin-bottom: 44px;
+}
+.projects_p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.4px;
+color: #1B1A1A;
+margin-top: 51px;
+margin-bottom: 0;
 }
 .d-flex{
     display: flex;
