@@ -5,7 +5,7 @@
 
 /*Header*/
 .header {
-    padding: 22px 0   
+    padding: 22px 0;   
 }
 .header_logo {
     max-width: 1200px; 
@@ -106,13 +106,14 @@
 
 /*firm*/
 .firm{
-    padding: 100px 336px;
+    padding: 100px 0;
     max-width: 768px;
     margin: auto;
 }
 .firm_div{
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between; 
+    max-width: 768px;   
 }
 .firm_title{
     font-family: 'Poppins';
@@ -289,7 +290,8 @@ color: #645C55;
 .happy{
     background: #403E3B;
     border-radius: 0px;
-    padding: 100px 100px;    
+    padding: 100px 0;    
+    margin: auto;
 }
 .happy_div, .happy_img{
     display: flex;
@@ -469,7 +471,7 @@ margin-bottom: 0;
 
 /*meet*/
 .meet{
-    padding: 100px;
+    padding: 100px 0;
     max-width: 1168px;  
     margin: auto;    
 }
@@ -537,10 +539,14 @@ margin-bottom: 0;
 
 /*get*/
 .get{
-    padding: 100px; 
+    padding: 100px 0; 
     background: #CEC4BC; 
+}
+.get_div{
+    max-width: 1168px;
     display: flex; 
     justify-content: space-between;
+    margin: auto;
 }
 .get_text{
     font-family: 'Poppins';
@@ -574,10 +580,12 @@ margin-bottom: 0;
 
 /*footer*/
 .footer{
-    padding: 60px 136px; 
+    padding: 60px 0; 
     display: flex; 
     justify-content: space-between; 
     align-items: flex-end;
+    max-width: 1168px;
+    margin: auto;
 }
 .footer_text{
     font-family: 'Poppins';

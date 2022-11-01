@@ -23,8 +23,8 @@
         line-height: 1.5;
     }
     .firm{
-        padding: 50px 140px;
-        max-width: 768px;
+        padding: 50px 0;
+        max-width: 568px;
         margin: auto;
     }
     .firm_text_p{        
@@ -49,6 +49,10 @@
     }
     .happy_img_one, .happy_img_two{
         margin: auto;
+    }
+    .projects{
+        padding: 70px 0;
+        background-color: #F7F7F7;    
     }
     .projects h3{
         font-size: 29px;
@@ -77,6 +81,11 @@
         font-size: 10px;
         line-height: 1.42;
     }
+    .meet{
+        padding: 50px 15px;
+        max-width: 632px;  
+           
+    }
     .meet_div{
         display: block;
         justify-content: center;  
@@ -86,9 +95,14 @@
         margin-bottom: 20px;
     }
     .get{
-        padding: 50px;        
+               padding: 50px 0;
+              
     }
-    .get_text{        
+    .get_div{
+               max-width: 665px;
+               margin: auto;        
+    }
+        .get_text{        
         font-size: 10px;
         line-height: 1.42; 
     }
@@ -100,10 +114,211 @@
         font-size: 12px;
         line-height: 1.5;              
     }
-@media only screen and (max-width: 428px) {
+    .footer{     
+        max-width: 665px;
+    }
+}
+    @media only screen and (max-width: 376px) {
+        header{            
+            margin: auto;            
+        }
+        .header_logo {
+            display: block;
+            max-width: 360px;
+            padding: 0 5px;
+        }
+        .header_list{
+            align-items: center;
+            padding: 10px 0;
+        }
+        .header_link{            
+            font-size: 10px;
+            line-height: 1.6;
+            
+        }
+        .header_link_dark{
+            padding: 8px 15px;
+            font-size: 8px;
+            line-height: 1.5;
+         }
+         .hero_div {
+            max-width: 360px; 
+            margin: auto;
+        }
+        .hero_title_text {       
+            font-size: 8px;
+            line-height: 1.4;
+    }
+    .hero_title {        
+        font-size: 20px;
+        line-height: 1.09; 
+}
+.hero_text { max-width: 150px;       
+    font-size: 10px;
+    line-height: 1.5; 
+}
+.hero_link {        
+    font-size: 10px;
+    line-height: 1.5;
+}
+.firm{
+    padding: 50px 0;
+    max-width: 330px;
+    margin: auto;
+}
+.firm_text_p{        
+    font-size: 7px;
+    line-height: 1.5;
+}
+.firm_title{   
+    font-size: 15px;
+    line-height: 1.2;    
+}
+.firm_img_title, .firm_img_p{
+    font-size: 15px;
+    line-height: 1.5;    
+}
+.firm img{
+    width: 65px;
+    height: 65px;
+}
+.reading_house{
+     padding-right: 15px;    
+}
+.description_title{    
+    font-size: 10px;
+    line-height: 1.4;   
+}
+.description_text{    
+    font-size: 12px;
+    line-height: 1.5;    
+}
+.about{
+    padding: 50px 0;
+}
+.about_div_text{     
+    font-size: 20px;
+    line-height: 1.07;
+}
+.about_list_text{       
+    font-size: 11px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about_list{
+    display: block;
+    padding: 0;
+}
+.about_list img{
+    width: 82px;
+    height: 71px;
+}
+.marble{
+    padding-right: 15px;
+}
+.marble_description_title{  
+font-size: 10px;
+line-height: 1.4;
+}
+.marble_description_text{  
+font-size: 12px;
+line-height: 1.5;
+}
+.happy_text{
+    font-size: 10px;
+    line-height: 1.43;
+}
+.happy_title{
+    font-size: 24px;
+    line-height: 1.2;
+}
+.happy_title_text{
+    font-size: 15px;
+    line-height: 1.6;
+}
+.swirling{
+    padding-left: 15px;
+}
+.swirling_description_title{   
+font-size: 10px;
+line-height: 1.4;
+}
+.swirling_description_text{   
+font-size: 12px;
+line-height: 1.5;
+}
+.projects h3{
+    font-size: 20px;
+    line-height: 1.07;
+}
+.projects_text{
+    font-size: 15px;
+    line-height: 1.25;
+}
+.container{
+    max-width: 315px;
+    margin: auto;
+}
+.d-flex{
+display: block;
+}
+.meet_text_title{    
+    font-size: 28px;
+    line-height: 1.2;   
+}
+.meet_text_text{    
+    font-size: 13px;
+    line-height: 1.6;    
+}
+.meet_img_title, .meet_img_text{
+    font-size: 15px;
+    line-height: 1.5;    
+}
+.meet_img_div img{
+    width: 65px;
+    height: 65px;
+}
+.get_div{
+    max-width: 350px;
+       
+}
+.get_text{        
+    font-size: 8px;
+    line-height: 1.42; 
+}
+.get_text_two{        
+    font-size: 15px;
+    line-height: 1.05; 
+}
+.get_text_three{       
+    font-size: 8px;
+    line-height: 1.5;              
+}
+.footer{     
+    max-width: 350px;
+    display: block;
+}
+.footer_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;        
+    color: #645C55;
+}
+.fotter_div{
+    margin-bottom: 15px;
+}
+.footer_text_two{
+    font-size: 10px;
+    line-height: 1.4;   
+}
+.footer_list{
+    align-items: center;
+    justify-content: center;
+}
 
 }
 
-@media only screen and (max-width: 320px) {
-
-}
+    
