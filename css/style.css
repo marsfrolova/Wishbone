@@ -259,7 +259,7 @@
 .owl-carousel .owl-item img{
     display: inline-block;
 }
-.owl-carousel .owl-drag .owl-item{
+.about_list img{
     display: flex;
     justify-content: center;
 }
