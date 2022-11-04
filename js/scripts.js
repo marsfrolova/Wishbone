@@ -10,12 +10,12 @@ $(document).ready(function(){
     autoplay: true,
     autoplayTimeout:2000,
     responsive: {
-        0:{
+        1:{
     items:2
     },
 
     1000:{
-    items:5
+    items:3
     }
 }
   })

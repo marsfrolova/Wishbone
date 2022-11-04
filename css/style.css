@@ -252,6 +252,17 @@
     text-align: center;                
     color: #645C55;
 }
+.about_list img{
+    max-width: 117px;
+    display: inline-block;
+}
+.owl-carousel .owl-item img{
+    display: inline-block;
+}
+.owl-carousel .owl-drag .owl-item{
+    display: flex;
+    justify-content: center;
+}
 
 /*marble*/
 .marble{
