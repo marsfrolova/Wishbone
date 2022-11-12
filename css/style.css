@@ -44,6 +44,24 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+.ui-widget-header{
+    font-family: 'Poppins', sans-serif;    
+    font-size: 15px;
+    line-height: 19px;
+    background: black;
+    color: white;
+    border: none;
+}
+.header_dialog p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;                          
+    text-decoration: none;
+    color: #1B1A1A;
+}
+
 /*Hero*/
 .hero {
     padding: 137px 0 128px; 

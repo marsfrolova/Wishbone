@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wishbone</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
@@ -24,6 +26,9 @@
             <img src="img/logo.svg" alt="logo">
         </a>
         <nav>
+            <div class="header_dialog" id="dialog" title="Create template">
+                <p>This feature is not yet available.  Templates coming soon to our website.</p>
+            </div>
         <ul class="header_list">
             <li class="header_item">
                 <a href="#" class="header_link">Projects</a>
@@ -41,10 +46,11 @@
                 <a href="#" class="header_link">Contact</a>
             </li>
             <li class="header_item">
-                <a href="#" class="header_link_dark">Get template</a>
+                <a href="#" class="header_link_dark" id="opener">Get template</a>
             </li>
         </ul>
     </nav>
+    
 </div>
 </header>
 
@@ -257,5 +263,7 @@
  crossorigin="anonymous"></script>
  <script src="js/owl.carousel.js"></script>
  <script src="js/scripts.js"></script>
+ <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+ <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 </body>
 </html>
